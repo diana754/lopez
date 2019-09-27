@@ -32,19 +32,19 @@ var Estudiante = /** @class */ (function () {
 }());
 exports.Estudiante = Estudiante;
 var Direccion = /** @class */ (function () {
-    function Direccion(ci, ba, ca) {
-        this.cuidad = ci;
-        this.barrio = ba;
-        this.calle = ca;
+    function Direccion(ciudad, barrio, calle) {
+        this.ciudad = ciudad;
+        this.barrio = barrio;
+        this.calle = calle;
     }
     return Direccion;
 }());
 exports.Direccion = Direccion;
 var Compracurso = /** @class */ (function () {
-    function Compracurso(cu, ba, fe) {
-        this.curso = cu;
-        this.estudiante = ba;
-        this.fecha = fe;
+    function Compracurso(curso, estudiante, fecha) {
+        this.curso = curso;
+        this.estudiante = estudiante;
+        this.fecha = fecha;
     }
     return Compracurso;
 }());
